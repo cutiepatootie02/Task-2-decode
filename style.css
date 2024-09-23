@@ -58,6 +58,10 @@ nav a:hover{
     background-color:rgb(41, 4, 89);
     box-shadow: 3px 3 px 5px 2px white;
 }
+.keepimg{
+    height:50px;   
+    
+}
 
 .extremeleft{
     display: flex;
@@ -82,8 +86,6 @@ nav a:hover{
     align-items: center;
     color: white;
     font-weight: 600;
- 
-    
     float:right;
     
 }
@@ -108,13 +110,10 @@ nav a:hover{
     width:100%;
     
 }
-img{
-    height:50px;
-    
-    
-}
+
    
 .heading{
+    margin-top: 25px;
     font-family:logo;
     font-size: 70px;
     text-shadow: 2px 2px 10px #cdcdcd;
@@ -301,11 +300,9 @@ h3{
         font-size: 40px;
     }
 }
-@media(max-width:635px){
-    .heading{
-        font-size: 20px;
-    }
-}
+
+
+
 
 @media(max-width:878px){
     .navbar{
@@ -327,33 +324,158 @@ h3{
     .extremeleft{
         height:30px;
     }
-    .blogbutton{
-        display: flex;
-        
-        justify-content: space-evenly;
-        align-items: flex-start;
-        font-size: 200;
-        overflow-x: auto;
-        color: white;
-        margin-bottom: 8%;
-    }
-    
+  
     
     .blogpost{
-        padding: 20px;
-        height: 200px;
-        min-width: 200px;
-        border-radius: 15px;
-        margin: 20px;
-        margin-top: 100px;
-        border: 10px solid rgb(81, 25, 184);
-        box-shadow: 5px 5px 5px rgb(81, 25, 184);
         
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        font-family: stylish;
-        cursor: pointer;
-    
+        
+        margin-top: 100px;
+        
     }
    
+}
+
+@media(max-width:692px){
+    .heading{
+        font-size: 30px;
+    }
+    .navbar{
+        height:20px;
+        font-size: 10px;
+        
+        top:0;
+        width: 100%;
+    }
+    nav li{
+        height: 20px;
+    }
+    nav a{
+        padding: 0 15px;
+    }
+
+    .keepimg{
+        height: 20px;
+    }
+    .extremeleft{
+        height:20px;
+    }
+    
+
+      
+}
+
+@media(max-width:500px){   
+    
+    .sort li{
+        font-size: 10px;
+        height: 30px;
+        
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:70px;
+        border-radius: 25px;
+        
+    }    
+    .sort a:hover{
+        background-color: blue;
+        border-radius: 25px;
+        height: 20px;
+        width: 70px;  
+    } 
+    .createicon{
+        
+        height: 30px;
+        width: 70px;
+        font-size: 10px;
+        
+    }
+    .sortarea{
+        font-size: 10px;
+        height: 30px;
+        width: 75px;
+    }
+
+    .heading{
+        font-size: 30px;
+    }
+    .content{
+        font-size: 15px;
+    }
+
+
+}
+
+@media (max-width:480px){
+    .heading{
+        font-size: 15px;
+    }
+    .content{
+        font-size: 10px;
+    }
+
+}
+@media (300px <= width <=480px){
+    .heading{
+        font-size: 15px;
+    }
+    .content{
+        font-size: 10px;
+    }
+    .navbar{
+        height:20px;
+        font-size: 5px;
+        
+        top:0;
+        width: 100%;
+    }
+    nav li{
+        height: 20px;
+    }
+    nav a{
+        padding: 0 15px;
+    }
+
+    .keepimg{
+        height: 20px;
+    }
+    .extremeleft{
+        height:20px;
+    }
+
+    .sort li{
+        font-size: 10px;
+        height: 25px;
+        
+        background-color: blueviolet;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:50px;
+        border-radius: 25px;
+        
+    }    
+    .sort a:hover{
+        background-color: blue;
+        border-radius: 25px;
+        height: 17.5px;
+        width: 50px;  
+    } 
+    .createicon{
+        
+        height: 25px;
+        width: 50x;
+        font-size: 10px;
+        
+    }
+    .sortarea{
+        font-size: 10px;
+        height: 20px;
+        width: 50px;
+    }
+
+   
+
+
 }
