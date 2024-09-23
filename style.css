@@ -121,6 +121,7 @@ img{
     align-items: center;
     padding-left: 4px;
     padding-right: 4px;
+    color: white;
 }
 .blogbutton{
     display: flex;
@@ -231,19 +232,23 @@ title{
     padding-top: 10px;
     font-weight: 800;
     margin-top: 20px;
-    
+    color: white;
     font-size: 20px;
 }
 .end{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     
  
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(41, 4, 89);
-    min-height: 10vh;
+    height: 70px;
     font-family: stylish;
     padding: 0px;
+    color: white;
     
     
     
@@ -257,13 +262,16 @@ title{
     width: 100%;
     border: 0px solid white;
     flex-direction: column;
-    padding: 15px;
+    padding: 10px;
+    font-size: 10px;
     
     
 }
 h3{
-    margin: 15px;
+    margin: 0;
     margin-top: 0px;
+    color: white;
+    
 }
 .footlink  ul{
     
@@ -273,7 +281,9 @@ h3{
     flex-direction: column;
 }
 .footlink li{
-    height: 5vh;
+    height: 10px;
+    font-size: x-small;
+    padding: 5px;
     
     display: flex;
     justify-content: center;
